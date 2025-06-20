@@ -7,7 +7,7 @@
 
 body {
   font-family: 'Cormorant Garamond', serif;
-  background-color: #abb4aa;
+  background-color: #222b22;
   color: #dfe9d8;
   line-height: 1.6;
 }
@@ -15,12 +15,18 @@ body {
 
 /* === GLOBAL CONTAINER === */
 .container {
-  margin: 225.500px;
-  padding: 24px;
+  margin: 0 225.500px;
+  padding: 12px;
 }
 
 /* === GLOBAL SUBHEADING STYLES === */
-
+.subheading {
+  font-size: 2.8rem;
+  text-decoration: underline;
+  background-color: #0f1d0dde;
+  color: #ac7d37;
+  text-align: center;
+}
 
 /* ==== NAVBAR ==== */
 .navbar {
@@ -65,7 +71,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 70vh;
+  height: 100vh;
   background-image: url('../images/pub-hero-blurred.png');
   background-position: center center;
   background-size: cover;
@@ -104,4 +110,17 @@ body {
 .line-3 {
   font-size: 1.8rem;
   color: #444;
+}
+
+/* ==== ABOUT SECTION ==== */
+.about {
+  text-align: center;
+}
+
+.about-text {
+  font-size: 1.6rem;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.8;
+  color: #f7faf6;
 }
