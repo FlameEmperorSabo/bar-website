@@ -1,0 +1,107 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Cormorant Garamond', serif;
+  background-color: #abb4aa;
+  color: #dfe9d8;
+  line-height: 1.6;
+}
+
+
+/* === GLOBAL CONTAINER === */
+.container {
+  margin: 225.500px;
+  padding: 24px;
+}
+
+/* === GLOBAL SUBHEADING STYLES === */
+
+
+/* ==== NAVBAR ==== */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0f1d0dde;
+  padding: 20px 40px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 2.4rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #f2f2f283;
+  font-size: 1.8rem;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #ffffff;
+}
+
+
+/* ==== HERO SECTION ==== */
+
+/* Flex container to center circle */
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  background-image: url('../images/pub-hero-blurred.png');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+/* The circle container */
+.circle {
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  background-color: #e9eee6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+}
+
+/* Text styles */
+.line-1 {
+  font-size: 3.8rem;
+  color: #80591f;
+}
+
+.line-2 {
+  font-size: 5.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #80591f;
+}
+
+.line-3 {
+  font-size: 1.8rem;
+  color: #444;
+}
