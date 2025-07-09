@@ -65,6 +65,11 @@
     <!-- Photo Gallery Section -->
     <h2 class="subheading">Photo Gallery</h2>
     <div class="gallery-wrap">
+      <button type="button" id="backBtn" class="button-back">
+        <span class="button-icon">
+          <ion-icon name="arrow-back-outline"></ion-icon>
+        </span>
+      </button>
       <section id="gallery" class="gallery">
         <div class="carousel">
           <span><img src="images/bike.jpg" alt="" /></span>
@@ -77,13 +82,20 @@
           <span><img src="images/back_bar.jpg" alt="" /></span>
         </div>
       </section>
+      <button type="button" id="nextBtn" class="button-next">
+        <span class="button-icon">
+          <ion-icon name="arrow-forward-outline"></ion-icon>
+        </span>
+      </button>
     </div>
 
     <!-- Contact Section -->
+    <h2 class="subheading">Contact Us</h2>
     <section id="contact" class="contact">
-      <h2 class="subheading">Contact Us</h2>
-      <p class="address-text"></p>
-      <p class="contact-text">Email: [n/a] | Phone: [n/a]</p>
+      <p class="contact-detail">8611 Lake Ave, Cleveland, Ohio 44102</p>
+      <p class="contact-detail">
+        Email: info@mcnamaraspub.com | Phone: (216) 555-1234
+      </p>
       <!-- Optional: Embed Google Map -->
     </section>
 
@@ -94,5 +106,13 @@
         <!-- Add links to Facebook/Instagram/etc. -->
       </div>
     </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>
