@@ -21,11 +21,12 @@ body {
 
 /* === GLOBAL SUBHEADING STYLES === */
 .subheading {
-  font-size: 2.8rem;
+  font-size: 2.6rem;
   text-decoration: underline;
   background-color: #0f110fde;
   color: #ac7d37;
   text-align: center;
+  height: 80px;
 }
 
 /* ==== NAVBAR ==== */
@@ -114,13 +115,15 @@ body {
 
 /* ==== ABOUT SECTION ==== */
 .about {
-  text-align: center;
+  display: flex;
+  align-items: center;
+  min-height: 20vh;
 }
 
 .about-text {
-  font-size: 1.4rem;
-  max-width: 800px;
-  margin: 0 auto;
+  text-align: center;
+  font-size: 1.6rem;
+  margin: 1% auto;
   line-height: 1.8;
   color: #f7faf6;
 }
@@ -163,7 +166,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 10% auto;
+  margin: 2% auto;
 }
 
 .button-back, .button-next {
