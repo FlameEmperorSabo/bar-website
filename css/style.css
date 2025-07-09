@@ -69,7 +69,6 @@ body {
 
 
 /* ==== HERO SECTION ==== */
-
 /* Flex container to center circle */
 .hero {
   display: flex;
@@ -222,6 +221,8 @@ iframe {
   width: 65%;
   height: 500px;
 }
+
+
 
 /* ==== FOOTER ==== */
 footer {
