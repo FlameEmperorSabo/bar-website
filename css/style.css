@@ -36,7 +36,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #0f1d0dde;
+  background-color: #0f110f;
   padding: 20px 40px;
   position: sticky;
   top: 0;
@@ -57,7 +57,7 @@ body {
 
 .nav-links a {
   text-decoration: none;
-  color: #f2f2f283;
+  color: #c7c7c7;
   font-size: 1.8rem;
   transition: color 0.3s ease;
 }
@@ -225,6 +225,38 @@ iframe {
 
 
 /* ==== FOOTER ==== */
-footer {
+
+.footer-text {
+  background-color: #0f110f;
+  color: #f7faf6;
   text-align: center;
+  padding: 20px 40px;
+  margin: 1% auto auto;
+}
+
+.socials-subtitle {
+  font-size: 1.6rem;
+}
+
+.socials {
+  display: inline-flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+
+.social-icon {
+  color: #c7c7c7;
+  transition: color 0.2s;
+  font-size: 4.8rem;
+  margin: 1% 20px;
+}
+
+.social-icon:hover {
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.copyright {
+  font-size: 1.0rem;
 }
