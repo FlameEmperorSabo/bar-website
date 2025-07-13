@@ -15,7 +15,13 @@ body {
 
 /* === BACKGROUND COLORS === */
 .background-1 {
+  padding: 20px 0px;
   background-color: #0f110f;
+}
+
+.background-2 {
+  padding: 20px 0px;
+  background-color: #1d1f1d;
 }
 
 /* === GLOBAL SUBHEADING STYLES === */
@@ -165,6 +171,7 @@ body {
   align-items: center;
   min-height: 30vh;
   overflow-x: scroll;
+  padding: 20px 0px;
 }
 
 .carousel {
@@ -196,7 +203,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 2% auto;
+  margin: auto;
 }
 
 .button-back, .button-next {
