@@ -15,13 +15,13 @@ body {
 
 /* === BACKGROUND COLORS === */
 .background-1 {
-  padding: 20px 0px;
+  padding: 30px 0px;
   background-color: #0f110f;
 }
 
 .background-2 {
-  padding: 20px 0px;
-  background-color: #1d1f1d;
+  padding: 30px 0px;
+  background-color: #1d1e1d;
 }
 
 /* === GLOBAL SUBHEADING STYLES === */
@@ -55,6 +55,7 @@ body {
 
 .subheading-wrap {
   max-width: 1200px;
+  padding: 10px 0px;
   margin: auto;
 }
 
@@ -164,9 +165,6 @@ body {
 
 /* ==== MENU SECTION ==== */
 .menu {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   margin: auto;
   max-width: 1200px;
 }
@@ -177,6 +175,28 @@ body {
   line-height: 1.8;
   color: #f7faf6;
   padding: 20px 0px;
+}
+
+.menu-columns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.menu-page{
+  width: 560px;
+  height: 800px;
+  overflow: hidden;
+  position: relative;
+}
+
+.menu-page img{
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 
