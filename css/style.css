@@ -110,12 +110,13 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
+  min-height: 30vh;
 }
 
 /* The circle container */
 .circle {
-  width: 600px;
-  height: 600px;
+  width: 50vh;
+  height: 50vh;
   border-radius: 50%;
   background-color: #e9eee6;
   display: flex;
